@@ -1,0 +1,25 @@
+# Component hierarchy
+
+- Appointments
+    - UserProfileName
+    - UpcomingAppts
+        - UpcomingApptsTitle
+        - UpcomingApptTableHeader
+        - UpcomingTableRow
+            - UpcomingDateCell
+            - UpcomingTimeCell
+            - UpcomingMainService
+            - UpcomingAdditionalService
+            - UpcomingDescription
+            - EditBookingBtns
+        - BookNewApptBtn
+        - ScheduleAppts
+            - ScheduleTableHeader
+            - ScheduleTableRow
+                - DateCell
+                - TimeCell
+                - MainServiceCell
+                - AdditionalServiceCell
+                - DescriptionCell
+                - BookBtn
+            - ComplimentaryMessage
